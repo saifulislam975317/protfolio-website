@@ -22,7 +22,16 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 90px;
+   
+}
+
+section.stay-connected-area {
+    height: 150px;
+}
+
+section.work-inquiry {
+    height: 150px;
 }
 a.link-button {
     text-decoration: none;
@@ -68,3 +77,65 @@ a.link-button {
 .single-experience{
     background-color: white;
 }
+
+.leatest-single-div{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+.leatest-single-div img{
+    width: 100%;
+}
+
+section.leatest-working-area h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+span.lest {
+    color: orange;
+}
+
+.leatest-single-div {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+section.work-inquiry img {
+    width: 650px;
+}
+
+section.work-inquiry {
+    text-align: center;
+    position: relative;
+}
+
+.description a {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    bottom: 170px;
+    left: 180px;
+}
+
+
+
+.description h2 {
+    position: relative;
+    bottom: 120px;
+    color: white;
+    right: 190px;
+}
+
+section.stay-connected-area {
+    text-align: center;
+}
+
+.social-icons img {
+    width: 60px;
+    padding: 10px;
+}
+
